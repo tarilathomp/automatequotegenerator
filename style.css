@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(brickwalllight.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quote-box {
+  background: url(roadline.jpg);
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 700px;
+  text-decoration-color: #fff;
+  text-emphasis-color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.quote-box .hover {
+  opacity: 0;
+
+  transition: 0.3s;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ec2828;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
